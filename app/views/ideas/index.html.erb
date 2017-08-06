@@ -19,7 +19,7 @@
         <td><%= idea.description %></td>
         <td><%= idea.picture %></td>
         <td><%= link_to 'Show', idea, class: "btn btn-default" %></td>
-        <td><%= link_to 'Edit', edit_idea_path(idea) %></td>
+        <td><%= link_to 'Edit', edit_idea_path(idea), class: "btn btn-default" %></td>
         <td><%= link_to 'Destroy', idea, class: "btn btn-default", method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
